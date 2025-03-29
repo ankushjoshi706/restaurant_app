@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="brand">
+                <img src="/images/logo.png" alt="Restaurant Logo">
+                <h2>Your Restaurant Menu</h2>
+                <p>Your Slogan</p>
+            </div>
+            <hr class="line">
+            <h2 class="sidebar_heading">Quick Links</h2>
+            <nav>
+                <ol>
+                    <li>Home</li>
+                    <li>Your Orders</li>
+                    <li>Wallet</li>
+                    <li>Profile</li>
+                    <li>Logout</li>
+                </ol>
+            </nav>
+            <hr class="line">
+            <h2 class="sidebar_heading1">More About Us</h2>
+            <div class="more-links">
+                <ol>
+                    <li>Our Blog</li>
+                    <li>Upcoming Dishes</li>
+                    <li>Our Story</li>
+                    <li>Social Media Links</li>
+                </ol>
+            </div>
+        </aside>
+        
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="navbar">
+                <input type="text" placeholder="Search for food items">
+                <button>Signup</button>
+                <button>Login</button>
+                <img class="avatar" src="images/logo.png" alt="User Avatar">
+            </header>
+            
+            <section class="menu">
+                <h2>Menu</h2>
+                <div class="menu-container" id="menu-items">
+                    <!-- Dynamic menu items will be added here -->
+                </div>
+                <button id="order-btn">Order Now</button>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
